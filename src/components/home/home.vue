@@ -11,7 +11,7 @@
       </p>
       <h3 class="F-agent-R"><router-link to="/homedl">个人中心</router-link></h3>
     </div>
-    <a href="" class="F-img"><img src="../../../static/images/1.png"></a>
+    <a href="" class="F-img"><img src="../../../static/icon/home.png"></a>
     <div class="F-task">
       <h4 class="F-task-wo">我的任务</h4>
       <a class="F-task-all">全部 <i>></i></a>
