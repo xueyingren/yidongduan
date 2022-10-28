@@ -279,6 +279,7 @@
   align-items: center;
   position: absolute;
   right: 0;
+  z-index: 2;
 }
 .F-echarts .F-echarts-yearFormat span {
   color: #fead62;

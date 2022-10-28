@@ -17,7 +17,7 @@
       <a class="F-task-all">全部 <i>></i></a>
     </div>
     <div class="F-earnings-outside">
-      <p class="F-earnings-new">NEW</p>
+      <!-- <p class="F-earnings-new">NEW</p> -->
       <ul class="F-earnings">
         <li class="F-earnings-1">
           <i class="F-earnings-icon2"></i>

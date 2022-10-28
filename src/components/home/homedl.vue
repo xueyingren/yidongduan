@@ -31,7 +31,7 @@
         <span>00.00</span>
       </li>
     </ul>
-    <a href="" class="F-img"><img :src="images"></a>
+    <a href="" class="F-img"><img src="../../../static/images/1.png"></a>
     <div class="F-task">
       <h4 class="F-task-wo">我的任务</h4>
       <a class="F-task-all">全部 <i>></i></a>
@@ -112,7 +112,7 @@ export default {
   name: 'homedl',
   data () {
     return {
-      images: '../../../static/images/1.png',
+      images: '',
       endDate: new Date()
     }
   },
