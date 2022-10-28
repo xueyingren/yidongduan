@@ -1,0 +1,51 @@
+.F-bot-menu {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0px -1px 0px 0px #f5f5f5;
+  background: #fff;
+}
+.F-bot-menu li p {
+  color: #999999;
+  font-size: 12px;
+  text-align: center;
+  font-family: Helvetica-regular;
+}
+.F-bot-menu li i {
+  height: 24px;
+  width: 24px;
+  background-size: 100% 100%;
+  display: block;
+}
+.F-bot-menu li .icon-sy {
+  background-image: url("../static/icon/new/sc.png");
+}
+.F-bot-menu li .icon-sc {
+  background-image: url("../static/icon/new/sc.png");
+}
+.F-bot-menu li .icon-yl {
+  background-image: url("../static/icon/new/yx.png");
+}
+.F-bot-menu li .icon-wd {
+  background-image: url("../static/icon/new/wd.png");
+}
+.F-bot-menu .selected p {
+  color: #2024e3;
+}
+.F-bot-menu .selected .icon-sy {
+  background-image: url("../static/icon/new/syd.png");
+}
+.F-bot-menu .selected .icon-sc {
+  background-image: url("../static/icon/new/scd.png");
+}
+.F-bot-menu .selected .icon-yl {
+  background-image: url("../static/icon/new/yxd.png");
+}
+.F-bot-menu .selected .icon-wd {
+  background-image: url("../static/icon/new/wdd.png");
+}

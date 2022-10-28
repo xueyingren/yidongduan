@@ -1,0 +1,296 @@
+/* 首页 */
+.F-framework {
+  padding: 0 15px;
+}
+.home-name {
+  margin-top: 26px;
+  display: flex;
+  align-items: flex-end;
+}
+.home-name h2 {
+  font-size: 24px;
+  font-family: SourceHanSansSC-bold;
+  color: #101010;
+  font-weight: bolder;
+}
+.home-name p {
+  background-color: #cccccc;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 20px;
+  padding: 0 10px;
+  border-radius: 15px;
+  transform: scale(0.5, 0.5);
+  margin-left: -15px;
+}
+.F-agent {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 10px;
+}
+.F-agent .F-agent-L {
+  display: flex;
+}
+.F-agent .F-agent-L .icon-tb {
+  width: 20px;
+  height: 20px;
+  background: url(../../../static/icon/tb.png);
+  background-size: 100% 100%;
+}
+.F-agent .F-agent-L span {
+  color: #ff9900;
+  font-size: 14px;
+  font-family: PingFangSC-regular;
+}
+.F-agent .F-agent-R {
+  width: 80px;
+  height: 30px;
+  border-radius: 32px;
+  background: linear-gradient(91.08deg, #2024e3 -0.26%, #c532f0 99.01%);
+  text-align: center;
+  border: 1px solid #9035ca;
+  line-height: 30px;
+}
+.F-agent .F-agent-R a {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: Microsoft Yahei;
+}
+.F-img {
+  width: 100%;
+  margin-top: 18px;
+  display: block;
+}
+.F-img img {
+  display: block;
+  width: 100%;
+  height: 160px;
+}
+.F-task {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.F-task .F-task-wo {
+  color: #101010;
+  font-size: 18px;
+  font-family: PingFangSC-semiBold;
+  font-weight: 550;
+}
+.F-task .F-task-all {
+  color: #101010;
+  font-size: 14px;
+  font-family: PingFangSC-semiBold;
+  font-weight: 500;
+}
+.F-earnings-outside {
+  position: relative;
+  margin-top: 10px;
+}
+.F-earnings {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+.F-earnings li {
+  display: inline-block;
+  width: 125px;
+  height: 150px;
+  border-radius: 15px;
+  background-color: #f0e9ff;
+  margin-right: 15px;
+}
+.F-earnings li .F-earnings-icon1 {
+  height: 50px;
+  width: 50px;
+  background: url(../../../static/icon/rw1.png);
+  background-size: 100% 100%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 32px;
+}
+.F-earnings li .F-earnings-icon2 {
+  height: 50px;
+  width: 50px;
+  background: url(../../../static/icon/rw2.png);
+  background-size: 100% 100%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 32px;
+}
+.F-earnings li .F-earnings-icon3 {
+  height: 50px;
+  width: 50px;
+  background: url(../../../static/icon/rw3.png);
+  background-size: 100% 100%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 32px;
+}
+.F-earnings li .F-earnings-title {
+  color: #222840;
+  font-size: 14px;
+  text-align: center;
+  font-family: PingFangSC-semiBold;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.F-earnings li .F-earnings-earnings {
+  color: #727986;
+  font-size: 12px;
+  text-align: center;
+  font-family: PingFangSC-regular;
+  margin-top: 5px;
+  display: block;
+}
+.F-earnings-outside .F-earnings-new {
+  width: 50px;
+  height: 25px;
+  border-radius: 1000px;
+  background-color: #febb38;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  font-family: Arial;
+  line-height: 25px;
+  position: absolute;
+  left: 38px;
+  top: -6px;
+}
+.F-earn {
+  height: 82px;
+  background-color: #f7f7f7;
+  padding: 15px;
+  border-radius: 15px;
+  margin-top: 15px;
+}
+.F-earn .F-earn-h4 {
+  color: #101010;
+  font-size: 18px;
+  font-family: PingFangSC-semiBold;
+  font-weight: 550;
+  text-align: left;
+}
+.income {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.income li {
+  text-align: center;
+}
+.income li p {
+  color: #bbbbbb;
+  font-size: 12px;
+  font-family: PingFangSC-regular;
+}
+.income li span {
+  color: #000;
+  font-size: 18px;
+  font-family: PingFangSC-regular;
+}
+.F-prompt {
+  color: #bbbbbb;
+  font-size: 12px;
+  font-family: PingFangSC-regular;
+  margin: 47px 0;
+  text-align: center;
+}
+/*首页（代理）*/
+.home-name .home-name-level {
+  background-color: #febb38;
+}
+.F-ag {
+  align-items: flex-start;
+}
+.F-ag .F-agent-L {
+  color: #000;
+  display: block;
+}
+.F-ag .F-agent-L .F-agent-Ltotal {
+  font-size: 12px;
+  font-family: PingFangSC-regular;
+  text-align: left;
+}
+.F-ag .F-agent-L .F-agent-Lmoney {
+  font-size: 20px;
+  font-family: PingFangSC-bold;
+  margin-top: 10px;
+}
+.F-ag .F-agent-R p {
+  width: 80px;
+  height: 30px;
+  border-radius: 32px;
+  background: linear-gradient(91.08deg, #2024e3 -0.26%, #c532f0 99.01%);
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  font-family: Microsoft Yahei;
+  border: 1px solid #9035ca;
+}
+.F-ag .F-agent-R p span {
+  color: #bbbbbb;
+  font-size: 12px;
+  font-family: PingFangSC-regular;
+  margin-top: 14px;
+}
+.F-amount {
+  height: 60px;
+  line-height: 20px;
+  border-radius: 15px;
+  background-color: #e9f0ff;
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+}
+.F-amount .F-elimination {
+  color: #101010;
+  font-size: 18px;
+  font-family: PingFangSC-semiBold;
+  font-weight: 550;
+}
+.F-amount .F-elimi {
+  color: #101010;
+  font-size: 18px;
+  font-family: PingFangSC-semiBold;
+  font-weight: 550;
+}
+.F-cumulative {
+  margin-top: 10px;
+  background-color: #f6f3f8;
+}
+.F-echarts {
+  position: relative;
+}
+.F-echarts #main {
+  height: 300px;
+  width: calc(100vw - 30px);
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+.F-echarts .F-echarts-yearFormat {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+  right: 0;
+}
+.F-echarts .F-echarts-yearFormat span {
+  color: #fead62;
+  font-size: 14px;
+  font-family: PingFangSC-semiBold;
+  text-align: right;
+}
+.F-echarts .F-echarts-yearFormat i {
+  width: 24px;
+  height: 24px;
+  background-image: url(../../../static/icon/rl.png);
+  background-size: 100% 100%;
+  display: inline-block;
+  margin-left: 5px;
+}

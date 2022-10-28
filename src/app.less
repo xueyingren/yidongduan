@@ -1,0 +1,55 @@
+// 菜单
+.F-bot-menu {
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: fixed;
+	bottom: 0; left: 0;
+	box-shadow: 0px -1px 0px 0px rgba(245, 245, 245, 100);
+  background: #fff;
+  li {
+    p {
+      color: rgba(153, 153, 153, 1);
+      font-size: 12px;
+      text-align: center;
+      font-family: Helvetica-regular;
+    }
+    i{
+      height: 24px;
+      width: 24px;
+      background-size:100% 100%;
+      display: block;
+    }
+    .icon-sy {
+      background-image: url("../static/icon/new/sc.png");
+    }
+    .icon-sc {
+      background-image: url("../static/icon/new/sc.png");
+    }
+    .icon-yl {
+      background-image: url("../static/icon/new/yx.png");
+    }
+    .icon-wd {
+      background-image: url("../static/icon/new/wd.png");
+    }
+  }
+  .selected {
+    p{
+      color: rgba(32, 36, 227, 1);
+    }
+    .icon-sy {
+      background-image: url("../static/icon/new/syd.png");
+    }
+    .icon-sc {
+      background-image: url("../static/icon/new/scd.png");
+    }
+    .icon-yl {
+      background-image: url("../static/icon/new/yxd.png");
+    }
+    .icon-wd {
+      background-image: url("../static/icon/new/wdd.png");
+    }
+  }
+}

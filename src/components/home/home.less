@@ -1,0 +1,310 @@
+/* 首页 */
+.F-framework {
+	padding:0 15px;
+}
+.home-name {
+	margin-top: 26px;
+	display: flex;
+	align-items:flex-end;
+  h2 {
+    font-size: 24px;
+    font-family: SourceHanSansSC-bold;
+    color: rgba(16, 16, 16, 1);
+    font-weight: bolder;
+  }
+  p {
+    background-color: rgba(204, 204, 204, 1);
+    color: rgba(255, 255, 255, 1);
+    font-family: Arial;
+    font-size: 20px;
+    padding:0 10px;
+    border-radius: 15px;
+    transform: scale(0.5, 0.5);
+    margin-left: -15px;
+  }
+}
+.F-agent {
+	display: flex;
+	justify-content: space-between;
+	align-items:flex-end;
+	margin-top: 10px;
+  .F-agent-L {
+    display: flex;
+    .icon-tb {
+      width: 20px;
+      height: 20px;
+      background: url(../../../static/icon/tb.png);
+      background-size:100% 100%;
+    }
+    span {
+      color: rgba(255, 153, 0, 1);
+      font-size: 14px;
+      font-family: PingFangSC-regular;
+    }
+  }
+  .F-agent-R {
+    width: 80px;
+    height: 30px;
+    border-radius: 32px;
+    background: linear-gradient(91.08deg, rgba(32,36,227,1) -0.26%,rgba(197,50,240,1) 99.01%);
+    text-align: center;
+    border: 1px solid rgba(144, 53, 202, 1);
+    line-height: 30px;
+    a {
+      color: rgba(255, 255, 255, 1);
+      font-size: 14px;
+      font-family: Microsoft Yahei;
+    }
+  }
+}
+.F-img {
+	width: 100%;
+	margin-top: 18px;
+	display: block;
+  img {
+    display: block;
+    width: 100%;
+    height: 160px;
+  }
+}
+.F-task {
+	margin-top: 25px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  .F-task-wo {
+    color: rgba(16, 16, 16, 1);
+    font-size: 18px;
+    font-family: PingFangSC-semiBold;
+    font-weight: 550;
+  }
+  .F-task-all {
+    color: rgba(16, 16, 16, 1);
+    font-size: 14px;
+    font-family: PingFangSC-semiBold;
+    font-weight: 500;
+  }
+}
+.F-earnings-outside {
+	position: relative;
+	margin-top: 10px;
+}
+.F-earnings {
+	width:100%;
+	overflow-x:auto;
+	overflow-y:hidden;
+	white-space:nowrap;
+  li {
+    display:inline-block;
+    width: 125px;
+    height: 150px;
+    border-radius: 15px;
+    background-color: rgba(240, 233, 255, 1);
+    margin-right: 15px;
+    .F-earnings-icon1 {
+      height: 50px;
+      width: 50px;
+      background: url(../../../static/icon/rw1.png);
+      background-size:100% 100%;
+      display: block;
+      margin: 0 auto;
+	    margin-top: 32px;
+    }
+    .F-earnings-icon2 {
+      height: 50px;
+      width: 50px;
+      background: url(../../../static/icon/rw2.png);
+      background-size:100% 100%;
+      display: block;
+      margin: 0 auto;
+	    margin-top: 32px;
+    }
+    .F-earnings-icon3 {
+      height: 50px;
+      width: 50px;
+      background: url(../../../static/icon/rw3.png);
+      background-size:100% 100%;
+      display: block;
+      margin: 0 auto;
+	    margin-top: 32px;
+    }
+    .F-earnings-title {
+      color: rgba(34, 40, 64, 1);
+      font-size: 14px;
+      text-align: center;
+      font-family: PingFangSC-semiBold;
+      font-weight: 600;
+      margin-top: 10px;
+    }
+    .F-earnings-earnings {
+      color: rgba(114, 121, 134, 1);
+      font-size: 12px;
+      text-align: center;
+      font-family: PingFangSC-regular;
+      margin-top: 5px;
+      display: block;
+    }
+  }
+}
+.F-earnings-outside {
+  .F-earnings-new {
+    width: 50px;
+    height: 25px;
+    border-radius: 1000px;
+    background-color: rgba(254, 187, 56, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    text-align: center;
+    font-family: Arial;
+    line-height: 25px;
+    position: absolute;
+    left: 38px;top: -6px;
+  }
+}
+.F-earn {
+	height: 82px;
+	background-color: rgba(247, 247, 247, 1);
+	padding: 15px;
+	border-radius: 15px;
+	margin-top: 15px;
+}
+.F-earn {
+  .F-earn-h4 {
+    color: rgba(16, 16, 16, 1);
+    font-size: 18px;
+    font-family: PingFangSC-semiBold;
+    font-weight: 550;
+    text-align: left;
+  }
+}
+.income {
+	margin-top: 15px;
+	display: flex;
+	justify-content: space-between;
+}
+.income {
+  li {
+    text-align: center;
+    p {
+      color: rgba(187, 187, 187, 1);
+      font-size: 12px;
+      font-family: PingFangSC-regular;
+    }
+    span {
+      color: #000;
+      font-size: 18px;
+      font-family: PingFangSC-regular;
+    }
+  }
+}
+.F-prompt {
+	color: rgba(187, 187, 187, 1);
+	font-size: 12px;
+	font-family: PingFangSC-regular;
+	margin: 47px 0;
+	text-align: center;
+}
+
+
+/*首页（代理）*/
+.home-name {
+  .home-name-level {
+    background-color: rgba(254, 187, 56, 1);
+  }
+}
+.F-ag {
+	align-items: flex-start;
+  .F-agent-L {
+    color: #000;
+    display: block;
+    .F-agent-Ltotal {
+      font-size: 12px;
+      font-family: PingFangSC-regular;
+      text-align: left;
+    }
+    .F-agent-Lmoney {
+      font-size: 20px;
+      font-family: PingFangSC-bold;
+      margin-top: 10px;
+    }
+  }
+  .F-agent-R p {
+    width: 80px;
+    height: 30px;
+    border-radius: 32px;
+    background: linear-gradient(91.08deg, rgba(32,36,227,1) -0.26%,rgba(197,50,240,1) 99.01%);
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    text-align: center;
+    font-family: Microsoft Yahei;
+    border: 1px solid rgba(144, 53, 202, 1);
+    span {
+      color: rgba(187, 187, 187, 1);
+      font-size: 12px;
+      font-family: PingFangSC-regular;
+      margin-top: 14px;
+    }
+  }
+}
+.F-amount {
+  height: 60px;
+  line-height: 20px;
+  border-radius: 15px;
+  background-color: rgba(233, 240, 255, 1);
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  .F-elimination {
+    color: rgba(16, 16, 16, 1);
+    font-size: 18px;
+    font-family: PingFangSC-semiBold;
+    font-weight: 550;
+  }
+  .F-elimi {
+    color: rgba(16, 16, 16, 1);
+    font-size: 18px;
+    font-family: PingFangSC-semiBold;
+    font-weight: 550;
+  }
+}
+.F-cumulative {
+  margin-top: 10px;
+  background-color: rgba(246, 243, 248, 1);
+}
+.F-echarts {
+  position: relative;
+  #main {
+    height: 300px;
+    width: calc(100vw - 30px);
+    margin-top: 25px;
+    margin-bottom: 30px;
+  }
+  .F-echarts-yearFormat {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    span {
+      color: rgba(254, 173, 98, 1);
+      font-size: 14px;
+      font-family: PingFangSC-semiBold;
+      text-align: right;
+    }
+    i {
+      width: 24px;
+      height: 24px;
+      background-image: url(../../../static/icon/rl.png);
+      background-size:100% 100%;
+      display: inline-block;
+      margin-left: 5px;
+    }
+  }
+}
+
+
+
+
+

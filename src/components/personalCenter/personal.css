@@ -1,0 +1,249 @@
+.F-personal {
+  background-color: #F3F4F8;
+  min-height: 100vh;
+  padding: 0 15px;
+  box-sizing: border-box;
+  padding-bottom: 30px;
+}
+.F-personal .F-personal-wo {
+  width: 100%;
+  height: 44px;
+  color: rgba(0, 0, 0);
+  font-size: 18px;
+  text-align: center;
+  font-family: Arial;
+  line-height: 44px;
+}
+.F-personal .F-personal-role {
+  width: 100%;
+  height: 170px;
+  line-height: 20px;
+  border-radius: 15px;
+  background-color: #ffffff;
+}
+.F-personal .F-personal-role .F-role-top {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  margin-left: 15px;
+  position: relative;
+}
+.F-personal .F-personal-role .F-role-top .F-portrait {
+  display: flex;
+}
+.F-personal .F-personal-role .F-role-top .F-portrait img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.F-personal .F-personal-role .F-role-top .F-portrait div .F-name {
+  color: #040404;
+  font-size: 18px;
+  font-family: PingFangSC-semiBold;
+  font-weight: 500;
+  line-height: 29px;
+}
+.F-personal .F-personal-role .F-role-top .F-portrait div .F-level {
+  height: 26px;
+  border-radius: 15px;
+  background-color: #f0e9ff;
+  color: #2024e3;
+  font-size: 12px;
+  font-family: Microsoft Yahei;
+  margin-top: 6px;
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+}
+.F-personal .F-personal-role .F-role-top .F-portrait div .F-level i {
+  width: 18px;
+  height: 18px;
+  background-image: url("../../../static/icon/tx3.png");
+  background-size: 100% 100%;
+  display: inline-block;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+.F-personal .F-personal-role .F-role-top .F-portrait div .F-level span {
+  color: #2024e3;
+  font-size: 12px;
+  font-family: Microsoft Yahei;
+  margin-left: 10px;
+}
+.F-personal .F-personal-role .F-SignIn {
+  width: 65px;
+  height: 30px;
+  border-radius: 100px 0px 0px 100px;
+  background: linear-gradient(-42.78deg, #fead62 -1.01%, #fb5b27 102.55%);
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  font-family: Microsoft Yahei;
+  line-height: 30px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.F-personal .F-personal-role .F-COINS {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.F-personal .F-personal-role .F-COINS p {
+  width: 50%;
+}
+.F-personal .F-personal-role .F-COINS p span {
+  color: #101010;
+  font-size: 13px;
+  text-align: center;
+  font-family: SourceHanSansSC-regular;
+  display: block;
+}
+.F-personal .F-personal-role .F-COINS p i {
+  color: #101010;
+  font-size: 16px;
+  text-align: center;
+  font-family: SourceHanSansSC-bold;
+  display: block;
+  line-height: 32px;
+}
+.F-personal .F-personal-role .F-COINS b {
+  border-left: 1px solid #dfdfdf;
+  width: 1px;
+  height: 40px;
+  margin-top: 5px;
+}
+.F-personal .F-earnings {
+  display: flex;
+  margin-top: 10px;
+}
+.F-personal .F-earnings div {
+  width: calc(50% - 8px);
+  background: #fff;
+  height: 120px;
+  line-height: 20px;
+  text-align: left;
+  border-radius: 15px;
+  box-sizing: border-box;
+  padding-top: 10px;
+  padding-left: 15px;
+}
+.F-personal .F-earnings div i {
+  opacity: 0.71;
+  color: #101010;
+  font-size: 13px;
+  font-family: SourceHanSansSC-regular;
+  display: block;
+}
+.F-personal .F-earnings div span {
+  color: #101010;
+  font-size: 16px;
+  font-family: SourceHanSansSC-bold;
+  line-height: 24px;
+  margin-top: 5px;
+  font-weight: 550;
+  display: block;
+}
+.F-personal .F-earnings div p {
+  width: 80px;
+  height: 30px;
+  border-radius: 32px;
+  background: linear-gradient(91.08deg, #2024e3 -0.26%, #c532f0 99.01%);
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  font-family: Microsoft Yahei;
+  line-height: 30px;
+  margin-top: 15px;
+}
+.F-personal .F-meMessage {
+  margin-top: 10px;
+  border-radius: 15px;
+}
+.F-personal .F-invitation {
+  margin-top: 10px;
+  display: flex;
+}
+.F-personal .F-invitation div {
+  width: calc(50% - 8px);
+  background: #fff;
+  line-height: 20px;
+  text-align: left;
+  border-radius: 15px;
+  box-sizing: border-box;
+  padding: 10px 15px;
+  display: flex;
+}
+.F-personal .F-invitation div img {
+  width: 35px;
+  height: 35px;
+  border-radius: 15px;
+  background: linear-gradient(180deg, #fbe132 0%, #fdac05 100%);
+}
+.F-personal .F-invitation div p {
+  margin-left: 10px;
+}
+.F-personal .F-invitation div p span {
+  color: #101010;
+  font-size: 14px;
+  font-family: PingFangSC-semiBold;
+  display: block;
+}
+.F-personal .F-invitation div p i {
+  color: #bbbbbb;
+  font-size: 12px;
+  font-family: PingFangSC-regular;
+}
+.F-setUpThe {
+  background-color: #F3F4F8;
+  min-height: 100vh;
+  box-sizing: border-box;
+  padding-bottom: 30px;
+  margin-top: 40px;
+}
+.F-setUpThe .F-top-return {
+  background: #fff;
+  color: #000;
+  box-shadow: 0px 1px 0px 0px #f7f7f7;
+}
+.F-setUpThe .F-top-return .mint-header-button .router-link-active .mint-button--default {
+  color: #000;
+}
+.F-setUpThe .F-setUpThe-title {
+  height: 45px;
+  line-height: 45px;
+  margin-left: 15px;
+  color: #101010;
+  font-size: 14px;
+  font-family: PingFangSC-regular;
+}
+.F-setUpThe .F-setUpThe-cl {
+  padding: 3px 0;
+}
+.F-setUpThe .F-setUpThe-cl > div {
+  background-color: #000 !important;
+}
+.F-setUpThe .F-setUpThe-cl .F-setUpThe-img {
+  width: 44px;
+  height: 44px;
+}
+.F-setUpThe .F-setUpThe-cl .F-setUpThe-img i {
+  display: block;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-image: url("../../../static/images/1.png");
+  background-size: 100% 100%;
+}
+.F-setUpThe .F-setUpThe-exit {
+  width: 100%;
+  height: 55px;
+  line-height: 55px;
+  background-color: #ffffff;
+  text-align: center;
+  color: #ec2002;
+  font-size: 15px;
+  font-family: PingFangSC-regular;
+  margin-top: 10px;
+}

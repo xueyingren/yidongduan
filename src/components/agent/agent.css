@@ -1,0 +1,179 @@
+.F-agent {
+  padding: 0 15px;
+}
+.F-agent .F-top-return {
+  background: #fff;
+  color: #000;
+  box-shadow: 0px 1px 0px 0px #f7f7f7;
+}
+.F-agent .F-top-return .mint-header-button .router-link-active .mint-button--default {
+  color: #000;
+}
+.F-agent .F-agent-module li {
+  height: 110px;
+  padding: 15px;
+  border-radius: 15px;
+  margin-top: 15px;
+}
+.F-agent .F-agent-module li h4 {
+  color: #ffffff;
+  font-size: 20px;
+  text-align: left;
+  font-family: PingFangSC-semiBold;
+  font-weight: 550;
+}
+.F-agent .F-agent-module li > div {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  margin-top: 10px;
+}
+.F-agent .F-agent-module li > div > p span {
+  display: block;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+  text-align: left;
+  font-family: PingFangSC-regular;
+  margin-top: 5px;
+}
+.F-agent .F-agent-module li > div > div {
+  margin-top: 6px;
+  text-align: right;
+}
+.F-agent .F-agent-module li > div > div > p {
+  color: #ffffff;
+  font-size: 18px;
+  text-align: right;
+  font-family: PingFangSC-semiBold;
+  font-weight: 550;
+}
+.F-agent .F-agent-module li > div > div > span {
+  width: 80px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  font-family: Microsoft Yahei;
+  display: inline-block;
+  line-height: 30px;
+  margin-top: 10px;
+}
+.F-agent .F-agent-module .F-qx {
+  background: linear-gradient(-44.6deg, #633cef -1.46%, #a46dc9 99.34%);
+}
+.F-agent .F-agent-module .F-qx .F-qx-span {
+  color: #6841ec;
+}
+.F-agent .F-agent-module .F-shj {
+  background: linear-gradient(-44.6deg, #e58736 -1.46%, #f3c45d 99.34%);
+}
+.F-agent .F-agent-module .F-shj .F-shj-span {
+  color: #e58a38;
+}
+.F-agent .F-agent-module .F-sj {
+  background: linear-gradient(-44.6deg, #2f5ad3 -1.46%, #5d80ea 99.34%);
+}
+.F-agent .F-agent-module .F-sj .F-sj-span {
+  color: #315cd4;
+}
+.F-agent .F-alt {
+  height: 220px;
+  width: calc(100vw - 80px);
+  margin-left: 25px;
+  background: #fff;
+  border-radius: 20px;
+  position: fixed;
+  z-index: 3;
+  top: 50%;
+  margin-top: -110px;
+  padding: 15px;
+  box-sizing: border-box;
+  border: 1px solid #000;
+}
+.F-agent .F-alt .F-alt-shut {
+  width: 24px;
+  height: 24px;
+  display: block;
+  background-image: url("../../../static/icon/ze.png");
+  background-size: 100% 100%;
+  margin-left: calc(100% - 30px);
+}
+.F-agent .F-alt .F-alt-title {
+  color: #101010;
+  font-size: 20px;
+  text-align: center;
+  font-family: PingFangSC-semiBold;
+  font-weight: 550;
+}
+.F-agent .F-alt .F-alt-pay {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.F-agent .F-alt .F-alt-pay p i {
+  width: 50px;
+  height: 50px;
+  background-size: 100% 100%;
+  display: block;
+}
+.F-agent .F-alt .F-alt-pay p sapn {
+  color: #101010;
+  font-size: 14px;
+  font-family: PingFangSC-regular;
+  margin-top: 10px;
+}
+.F-agent .F-alt .F-alt-pay .F-alt-pay-wx i {
+  background-image: url("../../../static/icon/wx.png");
+}
+.F-agent .F-alt .F-alt-pay .F-alt-pay-zfb i {
+  background-image: url("../../../static/icon/zfb.png");
+}
+.F-agent .F-backj {
+  background: rgba(255, 255, 255, 0.1);
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+.F-agent .F-pay-title {
+  color: #101010;
+  font-size: 14px;
+  text-align: center;
+  font-family: PingFangSC-regular;
+  margin-top: 90px;
+}
+.F-agent .F-pay-title span {
+  color: #FEBA7B;
+}
+.F-agent .F-pay-money {
+  color: #101010;
+  font-size: 20px;
+  text-align: center;
+  font-family: PingFangSC-semiBold;
+  font-weight: 550;
+  margin-top: 10px;
+}
+.F-agent .F-pay-way {
+  color: #101010;
+  font-size: 14px;
+  text-align: center;
+  font-family: PingFangSC-regular;
+  margin-top: 40px;
+}
+.F-agent .F-pay-img {
+  width: 70vw;
+  height: 70vw;
+  margin-top: 20px;
+  margin: 20px auto 0;
+  display: block;
+}
+.F-agent .F-pay-prompt {
+  color: #101010;
+  font-size: 14px;
+  text-align: center;
+  font-family: PingFangSC-regular;
+  margin-top: 20px;
+}

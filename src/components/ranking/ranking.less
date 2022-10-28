@@ -1,0 +1,153 @@
+.F-ranking{
+  margin-top: 44px;
+  .F-top-return {
+    background: #fff;
+    color: #000;
+    box-shadow: 0px 1px 0px 0px rgba(247, 247, 247, 100);
+    .mint-header-button {
+      .router-link-active {
+        .mint-button--default {
+          color: #000;
+        }
+      }
+    }
+  }
+  .F-ranking-classification {
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p {
+      width: 80px;
+      height: 30px;
+      border-radius: 0px 100px 100px 0px;
+      background-color: #fff;
+      color: rgba(144, 53, 202, 1);
+      font-size: 14px;
+      text-align: center;
+      font-family: Microsoft Yahei;
+      border: 1px solid rgba(144, 53, 202, 1);
+      line-height: 30px;
+    }
+    .left {
+      border-radius: 100px 0px 0px 100px;
+    }
+    .selected {
+      background: linear-gradient(138.32deg, rgba(32,36,227,1) -0.58%,rgba(197,50,240,1) 99%);
+      color: #fff;
+    }
+  }
+  .F-ranking-onelist {
+    width: 100%;
+    height: 216px;
+    background: linear-gradient(138.32deg, rgba(32,36,227,1) -0.58%,rgba(197,50,240,1) 99%);
+    margin-top: 10px;
+    box-sizing: border-box;
+    padding: 13px 12px;
+    display: flex;
+    align-items: flex-end;
+    li {
+      width: 33.33%;
+      height: 143px;
+      background: #fff;
+      border-radius: 5px;
+      text-align: center;
+      i {
+        width: 23px;
+        height: 23px;
+        display: block;
+        background-image: url("../../../static/icon/dj2.png");
+        background-size: 100% 100%;
+        margin: 2px auto;
+        position: relative;
+        z-index: 2;
+      }
+      img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-top: -10px;
+      }
+      .name {
+        color: rgba(0, 0, 0);
+        font-size: 12px;
+        font-family: Arial-regular;
+        margin-top: 10px;
+      }
+      .number {
+        color: rgba(246, 62, 61, 1);
+        font-size: 16px;
+        font-family: Arial-400;
+      }
+      .complete {
+        color: rgba(153, 153, 153, 1);
+        font-size: 12px;
+        font-family: Arial-400;
+        margin-top: 3px;
+      }
+    }
+    .two {
+      height: 170px;
+      box-shadow: 0px -3px 5px 0px rgba(0, 0, 0, 0.18);
+      i {
+        width: 36px;
+        height: 36px;
+        background-image: url("../../../static/icon/dj1.png");
+      }
+      img {
+        width: 65px;
+        height: 65px;
+      }
+    }
+    .three {
+      i {
+        background-image: url("../../../static/icon/dj3.png");
+      }
+    }
+  }
+  .F-ranking-list {
+    li {
+      width: 100%;
+      height: 70px;
+      display: flex;
+      .serial-number {
+        width: 55px;
+        height: 70px;
+        text-align: center;
+        line-height: 70px;
+        font-size: 16px;
+        font-family: Arial-400;
+      }
+      &>div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        border-bottom: 1px solid #F2F2F2;
+        .list-left {
+          display: flex;
+          align-items: center;
+          img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+          }
+          span {
+            font-size: 16px;
+            font-family: Arial-400;
+            margin-left: 12px;
+          }
+        }
+        .list-right {
+          color: rgba(153, 153, 153, 1);
+          font-size: 12px;
+          font-family: Arial-400;
+          margin-right: 15px;
+          span {
+            color: rgba(246, 62, 61, 1);
+          }
+        }
+      }
+    }
+  }
+}
