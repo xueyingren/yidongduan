@@ -7,7 +7,8 @@
     </mt-header>
     <div class="F-ranking-classification">
       <p class="left selected">团队奖</p>
-      <p class="right">销售奖</p>
+      <p class="center">销售奖</p>
+      <p class="right">总收益</p>
     </div>
     <ul class="F-ranking-onelist">
       <li class="one">

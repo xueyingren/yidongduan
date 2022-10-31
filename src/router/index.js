@@ -7,7 +7,9 @@ import agent from '@/components/agent/agent'
 import pay from '@/components/agent/pay'
 import personal from '@/components/personalCenter/personal'
 import setUpThe from '@/components/personalCenter/setUpThe'
+import agentDetail from '@/components/personalCenter/agentDetail'
 import ranking from '@/components/ranking/ranking'
+import salesAmount from '@/components/salesAmount/salesAmount'
 import '../../static/base.css'
 
 Vue.use(Router)
@@ -53,6 +55,16 @@ export default new Router({
       path: '/ranking',
       name: 'ranking',
       component: ranking
+    },
+    {
+      path: '/agentDetail',
+      name: 'agentDetail',
+      component: agentDetail
+    },
+    {
+      path: '/salesAmount',
+      name: 'salesAmount',
+      component: salesAmount
     }
   ]
 })
