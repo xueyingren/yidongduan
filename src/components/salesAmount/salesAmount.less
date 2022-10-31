@@ -51,6 +51,22 @@
                     color: rgba(16, 16, 16, 1);
                     font-size: 14px;
                     font-family: PingFangSC-regular;
+                    i {
+                      border-radius: 6px 2px 6px 2px;
+                      font-size: 10px;
+                      text-align: center;
+                      font-family: Arial;
+                      border: 1px solid rgba(7, 193, 96, 1);
+                      margin-left: 10px;
+                    }
+                    .successful {
+                      color: rgba(7, 193, 96, 1);
+                      border: 1px solid rgba(7, 193, 96, 1);
+                    }
+                    .failure {
+                      color: rgba(251, 68, 68, 1);
+                      border: 1px solid rgba(251, 68, 68, 1);
+                    }
                 }
                 span {
                     color: rgba(181, 181, 181, 1);
@@ -82,5 +98,82 @@
     margin-top: 20px;
     margin: 20px auto 0;
   }
-  
+  .F-AfterPin-earnings {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    p {
+      width: 33.33%;
+      text-align: center;
+      span {
+        opacity: 0.71;
+        color: rgba(16, 16, 16, 1);
+        font-size: 13px;
+        font-family: SourceHanSansSC-regular;
+        display: block;
+      }
+      b {
+        color: rgba(16, 16, 16, 1);
+        font-size: 16px;
+        text-align: center;
+        font-family: SourceHanSansSC-bold;
+        font-weight: 550;
+        display: block;
+        margin-top: 2px;
+      }
+    }
+    i {
+      width: 1px;
+      height: 24px;
+      border-left: 1px solid rgba(223, 223, 223, 1);
+      margin-top: 10px;
+    }
+  }
+  .F-AfterPin-team {
+    background: #fff;
+    padding: 20px 15px;
+    margin-top: 20px;
+    border-radius: 15px;
+    .number-of {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      p {
+        color: rgba(16, 16, 16, 1);
+        font-size: 14px;
+        font-family: PingFangSC-regular;
+      }
+      span {
+        color: rgba(16, 16, 16, 1);
+        font-size: 18px;
+        font-family: PingFangSC-semiBold;
+      }
+    }
+    ul {
+      margin-top: 10px;
+      display: flex;
+      justify-content: space-between;
+      li {
+        width: calc(50% - 8px);
+        padding: 20px 15px;
+        border-radius: 15px;
+        background: linear-gradient(212deg, #a6a6eb -0.16%, rgba(157, 192, 192, 0) 99.1%);
+        box-sizing: border-box;
+        p {
+          opacity: 0.71;
+          color: rgba(16, 16, 16, 1);
+          font-size: 13px;
+          font-family: SourceHanSansSC-regular;
+        }
+        span {
+          color: rgba(16, 16, 16, 1);
+          font-size: 20px;
+          font-family: SourceHanSansSC-bold;
+          margin-top: 10px;
+          display: block;
+          font-weight: 550;
+        }
+      }
+    }
+  }
 }
